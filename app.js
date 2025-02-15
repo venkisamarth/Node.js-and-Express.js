@@ -1,42 +1,43 @@
-// const amount=12 
-// if(amount<10){
-//     console.log("small numbers")
-// }
-// else{
-//     console.log('large numbers')
-// }
-// console.log(`hey it's my first node app!`)
+// // const {readFileSync,writeFileSync, write, writeFile}=require("fs")
+// // console.log('start')
+// // const first =readFilSynce('./content/first.txt','utf')
+// // const second =readFileSync('./content/second.txt','utf8')
 
-// // Golbals -no window!
-// // __dirname -path to current directory 
-// // __filename - file name 
-// // require -functio to use modules (commnets)
-// // process -info about eu where the programmm is being executed`
-// console.log(__dirname)
-// console.log(__filename)
-// console.log(require)
-// console.log(module)
-// console.log(process)
-// setInterval((__dirname)=>{
-//     console.log("Hello world ")
-// },1000)
+// // // writeFileSync(
+// // //   './content/result-sync.txt',
+// // //   'Here is the result :${first},${second},{flag:a'}
+// // // )
+// // writeFileSync(
+// //   './content/result-async.txt',
+// //   `Here is the result :${first},${second}`,
+// //   {flag:'a'}
+// // )
 
-// //Modules in the node.js
-
-// Modules in javascript 
-//Modules in js 
-
-// modules -Ecnapsulatee Code (only share default)
-// // CommonJS, evry file is module(by default)
-// const secret ="SUPER SECRET"
-// const john ='john'
-// const peter ='peter'
-const name=require('./4-names')
-console.log(name)
-const sayHi =require('./5-utils')
-
-
-sayHi('susan')
-sayHi(name.john)
-sayHi(name.peter)
-
+// // console.log('done with taks ')
+// // console.log('starting the next one ')
+// const {readFile,writeFile}=require('fs')
+// console.log('start')
+// readFile('./content/first.txt','utf-8',(err,result)=>{
+//   if(err){
+//     console.log(err)
+//     return
+//   }
+//   const first =result
+//   readFile('./content/second.txt','utf8',(err,result)=>{
+//     if(err){
+//       console.log(err)
+//       return
+//     }
+//     const second=result
+//     writeFile('./content/result-async.txt',`Here is the result:${first},${second}`,
+//       (err,result)=>{
+//         if(err){
+//           console.log(err)
+//           return
+//         }
+//         const  second=result
+       
+//       }
+//     )
+//   })
+})
